@@ -96,6 +96,7 @@
     color:white;
     font-family: "Roboto";
     font-weight:bold;
+    padding-bottom: 30px;
 }
 .course-card{
     background-color: white;
@@ -535,5 +536,139 @@
     margin-top: 25px;
     color: var(--it-common-white);
     font-weight: 400;
+}
+
+.our-story-page-section{
+    background-color: white;
+    padding-top:35px;
+    padding-bottom: 25px;
+    margin-top:25px;
+}
+
+.our-story-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+}
+.our-story-content-section{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    width:50vh;
+}
+.our-story-heading{
+    color:black;
+    font-size:35px;
+    font-family: "Roboto";
+    padding-left:20px;
+    padding-bottom:20px;
+    font-weight: bold;
+
+}
+.our-story-content{
+    color:black;
+    font-size:20px;
+    font-family: "Roboto";
+    padding-left:20px;
+    width:50vw;
+
+
+}
+
+.ourstory-img{
+    width:50vw;
+    height:100%;
+    padding-left:20px ;
+    padding-right:20px ;
+    padding-top: 40px;
+}
+
+
+.vision-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+}
+.vision-content-section{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.vision-heading{
+    color:black;
+    font-size:35px;
+    font-family: "Roboto";
+    padding-left:20px;
+    padding-bottom:20px;
+    font-weight: bold;
+
+}
+.vision-content{
+    color:black;
+    font-size:20px;
+    font-family: "Roboto";
+    padding-left:20px;
+
+
+}
+
+.ourpage_section{
+    background-image:url("https://res.cloudinary.com/don1wxvio/image/upload/v1709796681/career-banner_ueptau.jpg");
+    width:100vw;
+    background-size: cover;
+    padding-bottom:170px;
+
+}
+.mission-section{
+
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+padding-left:35px;
+padding-right: 35px;
+padding-bottom: 25px;
+}
+
+.mission-content-section{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.mission-heading{
+    color:black;
+    font-size:35px;
+    font-family: "Roboto";
+    padding-left:20px;
+    padding-bottom:20px;
+    font-weight: bold;
+}
+.mission-content{
+    color:black;
+    font-size:20px;
+    font-family: "Roboto";
+    padding-left:20px;
+    width:50vw;
+
+
+}
+.mission_img{
+    width:35vw;
+    height:30vh;    
+    padding-left:20px;
+    padding-right:20px;
+  
+    
+}
+.img_container{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
 }
 
