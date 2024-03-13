@@ -5,15 +5,31 @@
   }
   
 .banner-section{
-     background-image:url("https://res.cloudinary.com/don1wxvio/image/upload/v1709796681/career-banner_ueptau.jpg");
+    background-color:#9025D2;
     width:100vw;
     background-size: cover;
-    padding-bottom:170px;
+    padding-bottom:5px;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
 
+}
+.banner-span{
+    font-size:70px;
 }
 .banner-heading{
     padding-left:35px;
-    padding-top:95px;
+    padding-top:65px;
+    font-size:50px;
+    color:white;
+    font-family: "Roboto";
+    font-weight:bold;
+
+}
+.banner-heading-1{
+    padding-left:40px;
     font-size:40px;
     color:white;
     font-family: "Roboto";
@@ -21,15 +37,25 @@
 
 }
 .banner-content{
-    font-size:20px;
-    color:black;
-    padding-left: 35px;
-    padding-top:25px;
-    width:50%;
+    font-size:24px;
+    color:#EFCB0B;
+    padding-left: 40px;
    font-family: "Roboto";
    font-weight:600;
 
-
+}
+.explore-button{
+    padding:7px;
+    padding-left:18px;
+    padding-right:18px;
+    text-align:center;
+    color:#9025D2;
+    font-size:18px;
+    margin-left:35px;
+    margin-top:25px;
+    font-weight:500;
+    border-radius:8px;
+    border-width:0px;
 }
 .navbar-style{
     display:flex;
@@ -37,9 +63,24 @@
 }
 .item-style{
     padding-right:80px;
-    color:black;
-    font-family:'Lucida Sans Regular';
+    font-family:"Roboto";
 
+}
+.nav-bg-color{
+    background-color:#9025D2;
+}
+.navbar-color{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+}
+.nav-link{
+    color:white;
+    font-weight: 500;
+    font-size:17px;
+}
+.banner-img{
+    padding-right:100px;
 }
 .about-section{
     background-color: white;
@@ -79,596 +120,8 @@
     font-weight: 600;
 }
 .about-img{
-    width:45vw;
-    height:90%;
-    padding-left:20px ;
-    padding-right:20px ;
-    padding-top: 40px;
-}
-
-.courses-section{
-    background-color: #7FA3B9;
-    padding:30px;
-}
-.courses-heading{
-    font-size:28px;
-    text-align: center;
-    color:white;
-    font-family: "Roboto";
-    font-weight:bold;
-    padding-bottom: 30px;
-}
-.course-card{
-    background-color: white;
-    text-align: center;
-    padding:20px;
-}
-
-
- 
-  .course-image {
-    border-radius: 16px;
-    height:1;
-    width:70px;
-  }
-  .course-title {
-    color: #323f4b;
-    font-family: "Roboto";
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 24px;
-    text-align: center;
-  }
-  .course-button {
-  
-   background-color:black;
-   color:white;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    border-radius: 15px;
-    width:50%
    
-  }
-  .course-card {
-    border-radius: 16px;
-    height:60%;
-    width:20%;
-    margin: 25px;
-  }
-.course-container{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}  
-
-.logo {
-    height: 120px;
-    width: 230px;
-}
-
-.follow-us-icon-container {
-    background-color: black;
-    width: 50px;
-    height: 50px;
-    border-radius: 40px;
-    margin: 8px;
-    padding-top: 15px;
-    padding-bottom: 12px;
-    padding-right: 10px;
-    padding-left: 17px;
-}
-
-.icon {
-    color:#7FA3B9;
-    font-size: 15px;
-}
-
-.footer__plr {
-    padding-top: 250px;
-}
-
-.footer__number-info {
-    margin-bottom: 15px;
-}
-
-.footer__number-info a {
-    color: var(--it-common-white);
-    transition: 0.3s;
-    line-height: 25px;
-}
-
-.footer__number-info a:hover {
-    color: #1da72c;
-}
-
-.footer__title {
-    font-weight: 700;
-    font-size: 22px;
-    color: var(--it-common-white);
-    padding-bottom: 30px;
-    padding-top: 20px;
-}
-
-.footer__menu-list ul li {
-    list-style: none;
-    padding-bottom: 10px;
-}
-
-.footer__menu-list ul li a {
-    color: var(--it-common-white);
-    font-weight: 400;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-.footer__menu-list ul li a:hover {
-    color: #7FA3B9;
-}
-
-.footer__content p {
-    color: var(--it-common-white);
-    font-weight: 400;
-}
-
-.footer__social-box a {
-    height: 33px;
-    width: 33px;
-    border-radius: 50%;
-    border: 1px solid #a1a1a2;
-    display: inline-block;
-    line-height: 33px;
-    text-align: center;
-    margin-right: 5px;
-    transition: 0.3s;
-}
-
-.footer__social-box a i {
-    color: #a1a1a2;
-    transition: 0.3s;
-}
-
-.footer__social-box a:hover {
-    border: 1px solid #1da72c;
-    background-color: #1da72c;
-}
-
-.footer__social-box a:hover i {
-    color: #fff;
-}
-
-.footer-2__plr {
-    padding-top: 15px;
-}
-
-.footer-2__title {
-    font-weight: 700;
-    font-size: 22px;
-    color: var(--it-common-white);
-    padding-bottom: 30px;
-    padding-top: 20px;
-}
-
-.footer-2__menu-list ul li {
-    list-style: none;
-    padding-bottom: 10px;
-}
-
-.footer-2__menu-list ul li a {
-    color: var(--it-common-white);
-    font-weight: 400;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-.footer-2__menu-list ul li a:hover {
-    color: #1da72c;
-}
-
-.footer-2__content p {
-    color: var(--it-common-white);
-    font-weight: 400;
-}
-
-.footer-2__social-box a {
-    height: 33px;
-    width: 33px;
-    border-radius: 50%;
-    border: 1px solid #a1a1a2;
-    display: inline-block;
-    line-height: 33px;
-    text-align: center;
-    margin-right: 5px;
-    transition: 0.3s;
-}
-
-.footer-2__social-box a i {
-    color: #a1a1a2;
-    transition: 0.3s;
-}
-
-.footer-2__social-box a:hover {
-    background-color: #1da72c;
-    border: 1px solid transparent;
-}
-
-.footer-2__social-box a:hover i {
-    color: var(--it-common-black);
-}
-
-.footer-3__plr {
-    padding-top: 250px;
-}
-
-.footer-3__logo {
-    padding-bottom: 35px;
-}
-
-.footer-3__text p {
-    color: var(--it-common-white);
-    padding-right: 45px;
-}
-
-.footer-3__social-box a {
-    height: 33px;
-    width: 33px;
-    border:solid 1px #232323;
-    display: inline-block;
-    line-height: 33px;
-    text-align: center;
-    margin-right: 5px;
-    transition: 0.3s;
-    border-radius: 5px;
-}
-
-.footer-3__social-box a i {
-    color: var(--it-theme-1);
-    transition: 0.3s;
-}
-
-.footer-3__social-box a:hover {
-    background-color: var(--it-theme-1);
-    border: 1px solid transparent;
-}
-
-.footer-3__social-box a:hover i {
-    color: var(--it-common-black);
-}
-
-.footer-3__title {
-    font-weight: 700;
-    font-size: 22px;
-    color: var(--it-common-white);
-    padding-bottom: 30px;
-    padding-top: 20px;
-}
-
-.footer-3__menu-list ul li {
-    list-style: none;
-    padding-bottom: 10px;
-    width: 50%;
-    float: left;
-}
-
-.footer-3__menu-list ul li a {
-    color: var(--it-common-white);
-    font-weight: 400;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-.footer-3__menu-list ul li a i {
-    padding-right: 10px;
-}
-
-.footer-3__menu-list ul li a:hover {
-    color: var(--it-theme-1);
-}
-
-.footer-3__content-text h4 {
-    font-weight: 600;
-    font-size: 14px;
-    color: var(--it-common-white);
-    margin-bottom: 0;
-    line-height: 1.4;
-    transition: 0.3s;
-}
-
-.footer-3__content-text h4:hover {
-    color: var(--it-theme-1);
-}
-
-.footer-3__input {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.footer-3__input form input {
-    background-color: var(--it-common-white);
-    border: 0;
-    height: 50px;
-    width: 100%;
-    padding-left: 20px;
-    border-radius: 5px;
-}
-
-.footer-3__input form button {
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: var(--it-theme-1);
-    border: 0;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    text-align: center;
-    color: var(--it-common-white);
-    border-radius: 5px;
-}
-
-.footer-3__input form button:hover {
-    background-color: var(--it-theme-2);
-}
-
-.footer-3__copy-right {
-    border-top: 1px solid var(--it-common-white);
-    padding-top: 25px;
-    margin-top: 25px;
-    color: var(--it-common-white);
-    font-weight: 400;
-}
-
-.footer-4__logo {
-    padding-bottom: 35px;
-}
-
-.footer-4__text p {
-    color: var(--it-common-white);
-    padding-right: 45px;
-}
-
-.footer-4__social-box a {
-    height: 33px;
-    width: 33px;
-    border:solid 1px #232323;
-    display: inline-block;
-    line-height: 33px;
-    text-align: center;
-    margin-right: 5px;
-    transition: 0.3s;
-    border-radius: 5px;
-}
-
-.footer-4__social-box a i {
-    color: var(--it-theme-1);
-    transition: 0.3s;
-}
-
-.footer-4__social-box a:hover {
-    background-color: var(--it-theme-1);
-    border: 1px solid transparent;
-}
-
-.footer-4__social-box a:hover i {
-    color: var(--it-common-black);
-}
-
-.footer-4__title {
-    font-weight: 700;
-    font-size: 22px;
-    color: var(--it-common-white);
-    padding-bottom: 30px;
-    padding-top: 20px;
-}
-
-.footer-4__menu-list ul li {
-    list-style: none;
-    padding-bottom: 10px;
-    width: 50%;
-    float: left;
-}
-
-.footer-4__menu-list ul li a {
-    color: var(--it-common-white);
-    font-weight: 400;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-.footer-4__menu-list ul li a i {
-    padding-right: 10px;
-}
-
-.footer-4__menu-list ul li a:hover {
-    color: var(--it-theme-1);
-}
-
-.footer-4__content-text h4 {
-    font-weight: 600;
-    font-size: 14px;
-    color: var(--it-common-white);
-    margin-bottom: 0;
-    line-height: 1.4;
-    transition: 0.3s;
-}
-
-.footer-4__content-text h4:hover {
-    color: var(--it-theme-1);
-}
-
-.footer-4__input {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.footer-4__input form input {
-    background-color: var(--it-common-white);
-    border: 0;
-    height: 50px;
-    width: 100%;
-    padding-left: 20px;
-    border-radius: 5px;
-}
-
-.footer-4__input form button {
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: var(--it-theme-1);
-    border: 0;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    text-align: center;
-    color: var(--it-common-white);
-    border-radius: 5px;
-}
-
-.footer-4__input form button:hover {
-    background-color: var(--it-theme-2);
-}
-
-.footer-4__copy-right {
-    border-top: 1px solid var(--it-common-white);
-    padding-top: 25px;
-    margin-top: 25px;
-    color: var(--it-common-white);
-    font-weight: 400;
-}
-
-.our-story-page-section{
-    background-color: white;
-    padding-top:35px;
-    padding-bottom: 25px;
-    margin-top:25px;
-}
-
-.our-story-section{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left:35px;
-    padding-right: 35px;
-    padding-bottom: 25px;
-}
-.our-story-content-section{
-    display:flex;
-    flex-direction: column;
-    padding: 20px;
-    width:50vh;
-}
-.our-story-heading{
-    color:black;
-    font-size:35px;
-    font-family: "Roboto";
-    padding-left:20px;
-    padding-bottom:20px;
-    font-weight: bold;
-
-}
-.our-story-content{
-    color:black;
-    font-size:20px;
-    font-family: "Roboto";
-    padding-left:20px;
-    width:50vw;
-
-
-}
-
-.ourstory-img{
-    width:50vw;
-    height:100%;
     padding-left:20px ;
     padding-right:20px ;
-    padding-top: 40px;
+    padding-top: 60px;
 }
-
-
-.vision-section{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left:35px;
-    padding-right: 35px;
-    padding-bottom: 25px;
-}
-.vision-content-section{
-    display:flex;
-    flex-direction: column;
-    padding: 20px;
-    
-}
-.vision-heading{
-    color:black;
-    font-size:35px;
-    font-family: "Roboto";
-    padding-left:20px;
-    padding-bottom:20px;
-    font-weight: bold;
-
-}
-.vision-content{
-    color:black;
-    font-size:20px;
-    font-family: "Roboto";
-    padding-left:20px;
-
-
-}
-
-.ourpage_section{
-    background-image:url("https://res.cloudinary.com/don1wxvio/image/upload/v1709796681/career-banner_ueptau.jpg");
-    width:100vw;
-    background-size: cover;
-    padding-bottom:170px;
-
-}
-.mission-section{
-
-display:flex;
-flex-direction: row;
-justify-content: space-between;
-padding-left:35px;
-padding-right: 35px;
-padding-bottom: 25px;
-}
-
-.mission-content-section{
-    display:flex;
-    flex-direction: column;
-    padding: 20px;
-}
-.mission-heading{
-    color:black;
-    font-size:35px;
-    font-family: "Roboto";
-    padding-left:20px;
-    padding-bottom:20px;
-    font-weight: bold;
-}
-.mission-content{
-    color:black;
-    font-size:20px;
-    font-family: "Roboto";
-    padding-left:20px;
-    width:50vw;
-
-
-}
-.mission_img{
-    width:35vw;
-    height:30vh;    
-    padding-left:20px;
-    padding-right:20px;
-  
-    
-}
-.img_container{
-    background-color: white;
-    display:flex;
-    flex-direction: row;
-}
-
